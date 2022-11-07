@@ -63,3 +63,22 @@ footer {
   width: 790px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  max-height: 300px;
+}
+
+/* set flex property to aspect ratio to get nicely aligned images */
+.img1 {
+  flex: 0.15 * 1.0; /* 15% times the aspect ratio of the picture */
+  padding-right: 2em;
+}
+.img2 { 
+  flex: 0.15 * 1.0;
+}
+
+.img3 { 
+  flex: 0.15 * 2.33;
+}
